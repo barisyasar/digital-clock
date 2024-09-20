@@ -1,0 +1,37 @@
+/* main.css */
+
+@import "./base/reset.css";
+@import "./base/typography.css";
+@import "./base/variables.css";
+
+@import "./themes/dark.css";
+@import "./themes/light.css";
+
+@import "./utils/helpers.css";
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.card {
+  background-color: var(--card-bg-color);
+  padding: 1.2rem;
+  border-radius: 0.625rem;
+  -webkit-border-radius: 0.625rem;
+  -moz-border-radius: 0.625rem;
+  -ms-border-radius: 0.625rem;
+  -o-border-radius: 0.625rem;
+  border: 1px solid var(--card-border-color);
+  box-shadow: 0 1px 10px var(--card-box-shadow-color);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    color: var(--hover-color);
+  }
+  button:hover svg path,
+  a:hover svg path {
+    fill: var(--hover-color);
+  }
+}

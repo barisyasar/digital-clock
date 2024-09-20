@@ -1,0 +1,33 @@
+.container {
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+.ai-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-10 {
+  gap: 2rem;
+}
+
+.my-7 {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.4rem;
+}

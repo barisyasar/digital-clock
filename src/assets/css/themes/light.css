@@ -1,0 +1,10 @@
+[data-theme="light"] {
+  --background-color: var(--white);
+  --text-color: var(--black);
+
+  --card-bg-color: var(--white-dark);
+  --card-border-color: rgb(0, 0, 0, 0.05);
+  --card-box-shadow-color: rgb(0, 0, 0, 0.05);
+
+  --hover-color: var(--green);
+}
