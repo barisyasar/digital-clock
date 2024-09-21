@@ -14,14 +14,12 @@ function Clock() {
           <Digit key={`h-${index}`} segments={digitSegments[digit]} />
         ))}
       </Card>
-
       <Seprator />
       <Card className="flex">
         {[...minutes].map((digit, index) => (
           <Digit key={`m-${index}`} segments={digitSegments[digit]} />
         ))}
       </Card>
-
       <Seprator />
       <Card className="flex">
         {[...seconds].map((digit, index) => (

@@ -1,13 +1,15 @@
+.seprator {
+  display: none;
+}
 .seprator .circle {
-  width: 0.5rem;
-  height: 0.5rem;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   background-color: var(--seprator-circle-bg-color);
-  display: none;
+  width: 0.5rem;
+  height: 0.5rem;
 }
 
 .seprator .circle + .circle {
@@ -15,7 +17,7 @@
 }
 
 @media (min-width: 768px) {
-  .seprator .circle {
+  .seprator {
     display: block;
   }
 }
