@@ -7,6 +7,9 @@
 .flex {
   display: flex;
 }
+.flex-col {
+  flex-direction: column;
+}
 
 .jc-between {
   justify-content: space-between;
@@ -24,6 +27,10 @@
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.gap-4 {
+  gap: 0.8rem;
 }
 
 .gap-5 {
@@ -46,5 +53,11 @@
 @media (min-width: 768px) {
   .gap-md-10 {
     gap: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .jc-lg-between {
+    justify-content: space-between;
   }
 }

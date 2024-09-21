@@ -1,8 +1,6 @@
-// useTime
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-function useTime() {
+function useTime(timeZone = "UTC", hour12 = false) {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
@@ -11,10 +9,21 @@ function useTime() {
   }, []);
 
   const formatTime = (time) => {
+    const options = {
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12,
+      timeZone,
+    };
+
+    const rightNow = time.toLocaleString("en-US", options).split(":");
+
     return {
-      hours: String(time.getHours()).padStart(2, "0"),
-      minutes: String(time.getMinutes()).padStart(2, "0"),
-      seconds: String(time.getSeconds()).padStart(2, "0"),
+      hours: rightNow[0],
+      minutes: rightNow[1],
+      seconds: rightNow[2].split(" ")[0],
+      period: rightNow[2].split(" ")?.[1],
     };
   };
 

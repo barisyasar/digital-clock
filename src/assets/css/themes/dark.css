@@ -6,9 +6,13 @@
   --card-border-color: rgba(255, 255, 255, 0.1);
   --card-box-shadow-color: rgba(255, 255, 255, 0.1);
 
+  --select-border-color: rgba(255, 255, 255, 0.15);
+
   --hover-color: var(--green-light);
 
   --segment-on-bg-color: var(--white);
 
   --seprator-circle-bg-color: var(--white);
+
+  --slider-bg-color: var(--white);
 }
