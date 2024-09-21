@@ -11,7 +11,7 @@
 
 ## Features
 
-- **Display Time:** Shows current time in HH:MM format.
+- **Display Time:** Shows current time in HH:MM:SS format.
 - **Time Zone:** It displays the time according to the selected time zone.
 - **12 hour or 24 hour:** Display options.
 - **Light & Dark mode:** Easily toggle between themes.
