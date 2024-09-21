@@ -1,4 +1,4 @@
-// TimezoneSelector
+// Time Zone Selector
 import useTimeStore from "../../store/useTimeStore";
 
 function TimezoneSelector() {

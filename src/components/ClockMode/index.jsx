@@ -1,3 +1,4 @@
+// Clock Mode
 import useTimeStore from "../../store/useTimeStore";
 
 function ClockMode() {

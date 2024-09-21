@@ -1,3 +1,4 @@
+// useTime
 import { useEffect, useState } from "react";
 
 function useTime(timeZone = "UTC", hour12 = false) {
