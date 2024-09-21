@@ -1,0 +1,66 @@
+.digit {
+  display: grid;
+  grid-template-areas:
+    ". a ."
+    "f . b"
+    ". g ."
+    "e . c"
+    ". d .";
+}
+
+.digit + .digit {
+  margin-left: 1.8rem;
+}
+
+.digit .segment {
+  width: 0.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.digit .segment.horizontal {
+  height: 0.5rem;
+  width: 2.5rem;
+}
+
+.digit .segment.on {
+  background-color: var(--segment-on-bg-color);
+}
+
+.digit .segment.a {
+  grid-area: a;
+}
+.digit .segment.b {
+  grid-area: b;
+}
+.digit .segment.c {
+  grid-area: c;
+}
+.digit .segment.d {
+  grid-area: d;
+}
+.digit .segment.e {
+  grid-area: e;
+}
+.digit .segment.f {
+  grid-area: f;
+}
+.digit .segment.g {
+  grid-area: g;
+}
+
+@media (min-width: 992px) {
+  .digit .segment {
+    width: 0.6rem;
+    height: 4.25rem;
+  }
+
+  .digit .segment.horizontal {
+    height: 0.6rem;
+    width: 4.25rem;
+  }
+}

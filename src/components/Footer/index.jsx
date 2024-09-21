@@ -1,12 +1,13 @@
 // Footer
 import { Icon } from "@iconify/react";
 import { CHROME_ICON, GITHUB_ICON, LINKEDIN_ICON } from "../../constants/icons";
+import Card from "../Card";
 
 function Footer() {
   return (
     <footer className="my-7">
       <div className="container">
-        <div className="card">
+        <Card>
           <h2 className="mb-7">CONTACT</h2>
           <p className="mb-7">
             You can find more information about me from the links below.
@@ -34,7 +35,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-        </div>
+        </Card>
       </div>
     </footer>
   );

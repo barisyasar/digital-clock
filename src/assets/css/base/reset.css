@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -26,6 +31,16 @@ a {
   display: flex;
   align-items: center;
   gap: 0.6rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    color: var(--hover-color);
+  }
+  button:hover svg path,
+  a:hover svg path {
+    fill: var(--hover-color);
+  }
 }
 
 .iconify {

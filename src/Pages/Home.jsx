@@ -1,11 +1,12 @@
 // Home
+import Clock from "../components/Clock";
 import Layout from "../components/Layout";
 
 function Home() {
   return (
     <Layout>
       <div className="container">
-        <div className="card"></div>
+        <Clock />
       </div>
     </Layout>
   );

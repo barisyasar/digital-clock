@@ -1,0 +1,11 @@
+.card {
+  background-color: var(--card-bg-color);
+  padding: 1.2rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border: 1px solid var(--card-border-color);
+  box-shadow: 0 1px 10px var(--card-box-shadow-color);
+}

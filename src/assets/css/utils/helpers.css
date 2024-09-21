@@ -11,12 +11,23 @@
 .jc-between {
   justify-content: space-between;
 }
+.jc-center {
+  justify-content: center;
+}
+
 .ai-center {
   align-items: center;
+}
+.ai-end {
+  align-items: flex-end;
 }
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.gap-5 {
+  gap: 1rem;
 }
 
 .gap-10 {
@@ -30,4 +41,10 @@
 
 .mb-7 {
   margin-bottom: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  .gap-md-10 {
+    gap: 2rem;
+  }
 }

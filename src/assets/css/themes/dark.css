@@ -4,7 +4,11 @@
 
   --card-bg-color: var(--black-light);
   --card-border-color: rgba(255, 255, 255, 0.1);
-  --card-box-shadow-color: rgba(255, 255, 255, 0.15);
+  --card-box-shadow-color: rgba(255, 255, 255, 0.1);
 
   --hover-color: var(--green-light);
+
+  --segment-on-bg-color: var(--white);
+
+  --seprator-circle-bg-color: var(--white);
 }

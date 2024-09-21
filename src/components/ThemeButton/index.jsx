@@ -10,8 +10,8 @@ function ThemeButton() {
   useTheme();
 
   return (
-    <button onClick={toggleTheme} aria-label="Toggle theme">
-      {isDarkTheme ? <Icon icon={DARK_ICON} /> : <Icon icon={LIGHT_ICON} />}
+    <button onClick={toggleTheme}>
+      {isDarkTheme ? <Icon icon={LIGHT_ICON} /> : <Icon icon={DARK_ICON} />}
     </button>
   );
 }

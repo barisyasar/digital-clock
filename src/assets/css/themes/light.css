@@ -7,4 +7,8 @@
   --card-box-shadow-color: rgb(0, 0, 0, 0.05);
 
   --hover-color: var(--green);
+
+  --segment-on-bg-color: var(--black);
+
+  --seprator-circle-bg-color: var(--black);
 }
