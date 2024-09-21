@@ -39,14 +39,17 @@ label {
 
 select {
   color: inherit;
-  background: none;
-  padding: 0.2rem 0.3rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
   border: 1px solid var(--select-border-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
 }
 
 @media (hover: hover) and (pointer: fine) {

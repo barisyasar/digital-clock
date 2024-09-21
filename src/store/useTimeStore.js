@@ -5,7 +5,7 @@ import { persist } from "zustand/middleware";
 const useTimeStore = create(
   persist(
     (set) => ({
-      timeZone: "UTC",
+      timeZone: "Asia/Istanbul",
       hour12: false,
       setTimezone: (timeZone) => set({ timeZone }),
       toggleHour12: () => set(({ hour12 }) => ({ hour12: !hour12 })),

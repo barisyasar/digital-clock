@@ -12,10 +12,10 @@ function TimezoneSelector() {
         value={timeZone}
         onChange={(e) => setTimezone(e.target.value)}
       >
+        <option value="Asia/Istanbul">Asia/Istanbul</option>
         <option value="UTC">UTC</option>
         <option value="Europe/London">Europe/London</option>
         <option value="America/New_York">America/New York</option>
-        <option value="Asia/Istanbul">Asia/Istanbul</option>
         <option value="Asia/Tokyo">Asia/Tokyo</option>
         <option value="Australia/Sydney">Australia/Sydney</option>
       </select>
