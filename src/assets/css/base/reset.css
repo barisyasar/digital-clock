@@ -54,12 +54,6 @@ select {
 
 select option {
   background-color: var(--background-color);
-  border-radius: 0.2rem;
-  -webkit-border-radius: 0.2rem;
-  -moz-border-radius: 0.2rem;
-  -ms-border-radius: 0.2rem;
-  -o-border-radius: 0.2rem;
-  border: 1px solid var(--select-border-color);
 }
 
 @media (hover: hover) and (pointer: fine) {
