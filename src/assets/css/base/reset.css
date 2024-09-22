@@ -52,6 +52,10 @@ select {
   background: none;
 }
 
+select option {
+  background-color: var(--background-color);
+}
+
 @media (hover: hover) and (pointer: fine) {
   a:hover {
     color: var(--hover-color);
