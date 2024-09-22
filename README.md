@@ -16,6 +16,7 @@
 - **12 hour or 24 hour:** Display options.
 - **Light & Dark mode:** Easily toggle between themes.
 - **Responsive Design:** The application displays properly on mobile devices.
+- **Cross-Browser Compatibility:** Works properly on Safari, Chrome and Opera.
 
 ## Technologies Used
 
